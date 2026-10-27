@@ -23,7 +23,7 @@
 cd go-practice-01
 ```
 
-#### Hello program
+#### [Hello program](./main.go)
 
 ```bash
 go run ./main.go
@@ -34,19 +34,19 @@ go build -o hello.test .
 ./hello
 ```
 
-#### Card
+#### [Card](./cmd/card/main.go)
 
 ```bash
 go run ./cmd/card/main.go
 ```
 
-#### Experiments
+#### [Experiments](./cmd/experiments/main.go)
 
 ```bash
 go run ./cmd/experiments/main.go
 ```
 
-#### time-converter
+#### [time-converter](./cmd/time-converter/main.go)
 
 ```bash
 go run ./cmd/time-converter/main.go
@@ -84,7 +84,7 @@ pwd
 cd go-practice-01
 ```
 
-#### Task summary
+#### [Task summary](./cmd/task-summary/main.go)
 
 ```bash
 go run ./cmd/task-summary/main.go
@@ -116,7 +116,7 @@ pwd
 cd go-practice-01
 ```
 
-#### Task summary
+#### [Task model](./cmd/task-model/main.go)
 
 ```bash
 go run ./cmd/task-model/main.go
