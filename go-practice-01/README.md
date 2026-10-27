@@ -1,10 +1,20 @@
-# Практическая 1
+# Практические работы
 
-## Версия GO
+## Оглавление
+
+1. [Практическая 1](#практическая-1)
+2. [Практическая 2](#практическая-2)
+3. [Практическая 3](#практическая-3)
+
+
+## Практическая 1
+
+
+### Версия GO
 
 ![img](./img/go_ver.png)
 
-## Команды запуска
+### Команды запуска
 
 > [!IMPORTANT]  
 > **Все команды указаны из корня практической 1, перейти в нее:**
@@ -13,7 +23,7 @@
 cd go-practice-01
 ```
 
-### Hello program
+#### Hello program
 
 ```bash
 go run ./main.go
@@ -24,25 +34,25 @@ go build -o hello.test .
 ./hello
 ```
 
-### Card
+#### Card
 
 ```bash
 go run ./cmd/card/main.go
 ```
 
-### Experiments
+#### Experiments
 
 ```bash
 go run ./cmd/experiments/main.go
 ```
 
-### time-converter
+#### time-converter
 
 ```bash
 go run ./cmd/time-converter/main.go
 ```
 
-## Скриншоты тестов конвертера
+### Скриншоты тестов конвертера
 
 ![img](./img/time1.png)
 ![img](./img/time2.png)
@@ -53,13 +63,13 @@ go run ./cmd/time-converter/main.go
 ![img](./img/time7.png)
 
 
-# Практическая 2
+## Практическая 2
 
-## Что добавлено
+### Что добавлено
 
 Добавлена программа task-summary. В ней использовались циклы, условия, словари и срезы.
 
-## Команды запуска
+### Команды запуска
 
 > [!IMPORTANT]  
 > **Проверьте, что находитесь в go-practice-01:**
@@ -74,12 +84,44 @@ pwd
 cd go-practice-01
 ```
 
-### Task summary
+#### Task summary
 
 ```bash
 go run ./cmd/task-summary/main.go
 ```
 
-## Результат выполнения:
+### Результат выполнения:
 
 ![img](./img/pr2_ts.png)
+
+
+## Практическая 3
+
+### Что добавлено
+
+Добавлена программа task-model. В ней использовались структуры, методы, указатели.
+
+### Команды запуска
+
+> [!IMPORTANT]  
+> **Проверьте, что находитесь в go-practice-01:**
+
+```bash
+pwd
+```
+
+Перейти в неё, если не в ней:
+
+```bash
+cd go-practice-01
+```
+
+#### Task summary
+
+```bash
+go run ./cmd/task-model/main.go
+```
+
+### Результат выполнения:
+
+![img](./img/pr3_tm.png)
