@@ -2,7 +2,7 @@
 
 ## Версия GO
 
-![Go_version](./img/go ver.png)
+![img](./img/go_ver.png)
 
 ## Команды запуска
 
