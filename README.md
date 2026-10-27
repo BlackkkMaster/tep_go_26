@@ -2,6 +2,7 @@
 
 ТЭП-03-26
 
-1. [Практическая 1](./go-practice-01/)
-    - [README к ней](./go-practice-01/README.md)
+1. [Практическая 1 и 2](./go-practice-01/)
+    - [README к ним](./go-practice-01/README.md)
+
 
