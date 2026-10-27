@@ -51,3 +51,35 @@ go run ./cmd/time-converter/main.go
 ![img](./img/time5.png)
 ![img](./img/time6.png)
 ![img](./img/time7.png)
+
+
+# Практическая 2
+
+## Что добавлено
+
+Добавлена программа task-summary. В ней использовались циклы, условия, словари и срезы.
+
+## Команды запуска
+
+> [!IMPORTANT]  
+> **Проверьте, что находитесь в go-practice-01:**
+
+```bash
+pwd
+```
+
+Перейти в неё, если не в ней:
+
+```bash
+cd go-practice-01
+```
+
+### Task summary
+
+```bash
+go run ./cmd/task-summary/main.go
+```
+
+## Результат выполнения:
+
+![img](./img/pr2_ts.png)
