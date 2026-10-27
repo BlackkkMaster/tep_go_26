@@ -33,8 +33,12 @@ func countStatus(statuses []string, target string) int {
 
 func main() {
 	statuses := []string{"new", "in_progress", "done", "done"}
+	//statuses = []string{}
+	//statuses = []string{"done"}
+	//statuses = []string{"new", "new"}
+
 	// TODO: добавьте ещё один статус new через append.
-	statuses = append(statuses, "new")
+	//statuses = append(statuses, "new")
 
 	fmt.Printf("Задач всего: %d\n", len(statuses))
 	for i, status := range statuses {
