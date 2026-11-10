@@ -125,3 +125,38 @@ go run ./cmd/task-model/main.go
 ### Результат выполнения:
 
 ![img](./img/pr3_tm.png)
+
+
+## Практическая 4
+
+### Что добавлено
+
+Добавлена программа task-cli. CLI для CRUD с данными задач
+
+### Команды запуска
+
+> [!IMPORTANT]  
+> **Проверьте, что находитесь в go-practice-01:**
+
+```bash
+pwd
+```
+
+Перейти в неё, если не в ней:
+
+```bash
+cd go-practice-01
+```
+
+#### [Task cli](./cmd/task-cli/main.go)
+
+```bash
+go run ./cmd/task-cli/main.go
+```
+
+### Результаты выполнения:
+
+![img](./img/pr4_1.png)
+![img](./img/pr4_2.png)
+![img](./img/pr4_3.png)
+![img](./img/pr4_4.png)
